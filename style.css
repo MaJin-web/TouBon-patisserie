@@ -1,0 +1,150 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------classes fonctionnelles flex box------------ */ 
+.flex {
+display:flex;
+flex-wrap:wrap;
+}
+
+/* alignement horizontale */
+.space-between {
+justify-content:space-between;
+}
+
+.space-around {
+justify-content:space-around;
+}
+
+.space-evenly {
+justify-content:space-evenly;
+}
+
+.justify-center {
+justify-content:center;
+}
+
+.flex-end {
+justify-content:flex-end;
+}
+
+.flex-start {
+justify-content:flex-start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* alignement verticale */
+
+.align-center {
+align-items:center;
+}
+
+.align-end{
+align-items:end;
+}
+
+/* Gap */
+
+.gap-12 {
+gap:12px;
+}
+.gap-230 {
+    gap: 230px;
+}
+
+.padding-left-50{
+    padding-left: 50px;
+}
+
+.padding-right-50{
+    padding-right: 50px;
+}
+
+
+.carte{
+    width: 100%;
+    background-color: beige;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+/* classes de largeurs */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-22 {
+    width: 22%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+/* container */
+.container {
+ max-width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+
+/* classes couleurs */
+
+.color-span{
+ color: #FD8D5D;
+}
+
+.list-puce {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.top-0{
+    top: 0px;
+}
+
+.sticky{
+    position: sticky;
+    left: 0;
+}
+
+.btn {
+
+    background-color: #996830;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+}
