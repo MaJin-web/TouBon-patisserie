@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TouBon</title>
-    <script src="script.js">defer</script>
+  <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 </head>
 
 <body>
@@ -31,19 +35,22 @@
 
         <!-- SECTION HERO BANNIERE -->
 
-        <section class="bg-baniere justify-center flex align-center">
+        <section>
 
-            <div class="text-center">
+            <div  class="bg-baniere space-between flex align-center bg-baniere ">
 
-                <h1 class="">TouBon </h1>
+                <div class="text-center w-48 carte">
 
-                <p>Succombez à la délicatesse sucrée avec TouBon, votre pâtisserie gourmande à Auxerre</p>
+                    <h1 id="nomCommercial" class="">TOUBON</h1>
 
-                <a href="" class="btn">Découvrez nos créations</a>
-            </div>
+                    <p class="margin-top-30">Succombez à la délicatesse sucrée avec TouBon, votre pâtisserie gourmande à Auxerre</p>
 
-            <div>
-                <img src="" alt="">
+                    <a href="" class="btn border-radius-20 margin-top-30">Découvrez nos créations</a>
+                </div>
+
+                <div class="w-33">
+                    <img class="w-100 border-radius-30" src="asset/Rectangle 49 (2).jpg" alt="">
+                </div>
             </div>
         </section>
 
@@ -52,16 +59,19 @@
         <!-- section produits -->
 
 
-        <section>
+       
 
-            <h2>Nos produits</h2>
-            <div>
-                <div>
-                    <img src="" alt="">
+        <section class="container grande-carte">
+            <h2 class="flex justify-center margin-top-30 margin-bottom-30">Nos produits</h2>
+            
+            <div id="cartes" class="flex gap32pc">
+                <!-- 
+                <div class="card-2 w-25">
+                    <img class="w-48" src="asset/ipis.webp" alt="">
                     <h3>Eclairs au chocolat</h3>
                     <p>Laissez-vous tenter par notre éclair au chocolat, une délicieuse pâtisserie faite maison. Une
                         coque croquante et une crème onctueuse pour une explosion de saveurs.</p>
-                </div>
+                </div> -->
             </div>
 
         </section>
@@ -69,35 +79,96 @@
 
         <!-- section Nos services -->
 
-        <section>
+        <h2 class=" flex justify-center margin-top-30">Nos services</h2>
+        <section class=" flex ">
+           <div class="w-70pc carte-2 bg-color" id="container-des-services">
+            
+           </div>
 
-            <div>
-                <h2></h2>
-                <div><img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-                </div>
-                <div>
-                    <h3>
-                        <p></p>
-                    </h3><img src="" alt="">
-                </div>
-                <div><img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
+           <img class="w-22" src="asset/cupcake.jpg" alt="">
+
         </section>
+
 
     </main>
 
 
     <!-- section temoignages -->
+
+    <section>
+
+        <h2 class="flex justify-center margin-top-30 margin-bottom-30">Nos temoignages</h2>
+        <!-- AVIS -->
+
+        <div class="flex space-around margin-top-30" id="cartes3">
+            <!-- div 1 -->
+             <!--  
+            <div class="card margin-top-30 w-25 border-1 padding-30">
+
+                <h3>Sophie</h3>
+
+                <h4>Macarons Variés</h4>
+
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+
+
+                <img src="" alt="">
+
+                <p>Les macarons de TouBon sont une véritable explosion de saveurs. Chaque bouchée est un délice. Une
+                    pâtisserie incontournable à Auxerre !</p>
+
+            </div>
+-->
+
+            <!-- div 2 
+            <div class="margin-top-30 w-25 border-1 padding-30">
+
+                <h3>Pierre</h3>
+
+                <h4>Cours de Pâtisserie</h4>
+
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+
+
+                <img src="" alt="">
+
+                <p>Les cours de pâtisserie chez TouBon sont divertissants et instructifs. J'ai appris à créer des
+                    desserts incroyables. Une expérience enrichissante !</p>
+
+            </div>-->
+
+            <!-- div 3 
+            <div class="margin-top-30 w-25 border-1 padding-30">
+
+                <h3>Claire</h3>
+
+                <h4>Gâteau Sur Mesure</h4>
+
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+
+
+                <img src="" alt="">
+
+                <p>TouBon a créé le gâteau sur mesure parfait pour mon anniversaire. Non seulement il était magnifique,
+                    mais il était aussi délicieux. Un grand merci !</p>
+
+            </div>
+-->
+        </div>
+
+    </section>
 
 
 
@@ -113,6 +184,9 @@
                 <h3 class="padding-30">TouBon </h3>
 
                 <p>Venez gouter à nos patisseries gourmandes !</p>
+
+                <i class="ph ph-instagram-logo"></i>
+                <i class="ph ph-linkedin-logo"></i>
 
 
 
@@ -136,7 +210,9 @@
 
         </div>
 
-        <p class="text-center margin-top-100 margin-bottom-30">Mentions legales @2025 - Léo Vanel - Motion Designer</p>
+        <p class="text-center margin-top-100 margin-bottom-30">Mentions legales @2025</p>
+
+
 
     </footer>
 
